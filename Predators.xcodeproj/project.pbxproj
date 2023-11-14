@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26DE8142B022D4F00787DDE /* PredatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE8132B022D4F00787DDE /* PredatorsApp.swift */; };
+		C26DE8162B022D4F00787DDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE8152B022D4F00787DDE /* ContentView.swift */; };
+		C26DE8182B022D5000787DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26DE8172B022D5000787DDE /* Assets.xcassets */; };
+		C26DE81B2B022D5000787DDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26DE81A2B022D5000787DDE /* Preview Assets.xcassets */; };
+		C26DE8252B022D5000787DDE /* PredatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE8242B022D5000787DDE /* PredatorsTests.swift */; };
+		C26DE82F2B022D5000787DDE /* PredatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE82E2B022D5000787DDE /* PredatorsUITests.swift */; };
+		C26DE8312B022D5000787DDE /* PredatorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE8302B022D5000787DDE /* PredatorsUITestsLaunchTests.swift */; };
+		C26DE83E2B02333B00787DDE /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = C26DE83D2B02333B00787DDE /* jpapexpredators.json */; };
+		C26DE8402B0234B700787DDE /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE83F2B0234B700787DDE /* ApexPredator.swift */; };
+		C26DE8422B02385200787DDE /* ApexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE8412B02385200787DDE /* ApexController.swift */; };
+		C26DE8442B02489D00787DDE /* PredatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE8432B02489D00787DDE /* PredatorRow.swift */; };
+		C26DE8462B02C09C00787DDE /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DE8452B02C09C00787DDE /* PredatorDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C26DE8212B022D5000787DDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26DE8082B022D4F00787DDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26DE80F2B022D4F00787DDE;
+			remoteInfo = Predators;
+		};
+		C26DE82B2B022D5000787DDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26DE8082B022D4F00787DDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26DE80F2B022D4F00787DDE;
+			remoteInfo = Predators;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C26DE8102B022D4F00787DDE /* Predators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Predators.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26DE8132B022D4F00787DDE /* PredatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorsApp.swift; sourceTree = "<group>"; };
+		C26DE8152B022D4F00787DDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C26DE8172B022D5000787DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26DE81A2B022D5000787DDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C26DE8202B022D5000787DDE /* PredatorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PredatorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26DE8242B022D5000787DDE /* PredatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorsTests.swift; sourceTree = "<group>"; };
+		C26DE82A2B022D5000787DDE /* PredatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PredatorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26DE82E2B022D5000787DDE /* PredatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorsUITests.swift; sourceTree = "<group>"; };
+		C26DE8302B022D5000787DDE /* PredatorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C26DE83D2B02333B00787DDE /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		C26DE83F2B0234B700787DDE /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
+		C26DE8412B02385200787DDE /* ApexController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexController.swift; sourceTree = "<group>"; };
+		C26DE8432B02489D00787DDE /* PredatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorRow.swift; sourceTree = "<group>"; };
+		C26DE8452B02C09C00787DDE /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26DE80D2B022D4F00787DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DE81D2B022D5000787DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DE8272B022D5000787DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26DE8072B022D4F00787DDE = {
+			isa = PBXGroup;
+			children = (
+				C26DE8122B022D4F00787DDE /* Predators */,
+				C26DE8232B022D5000787DDE /* PredatorsTests */,
+				C26DE82D2B022D5000787DDE /* PredatorsUITests */,
+				C26DE8112B022D4F00787DDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26DE8112B022D4F00787DDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26DE8102B022D4F00787DDE /* Predators.app */,
+				C26DE8202B022D5000787DDE /* PredatorsTests.xctest */,
+				C26DE82A2B022D5000787DDE /* PredatorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26DE8122B022D4F00787DDE /* Predators */ = {
+			isa = PBXGroup;
+			children = (
+				C26DE8132B022D4F00787DDE /* PredatorsApp.swift */,
+				C26DE83F2B0234B700787DDE /* ApexPredator.swift */,
+				C26DE8412B02385200787DDE /* ApexController.swift */,
+				C26DE8152B022D4F00787DDE /* ContentView.swift */,
+				C26DE8432B02489D00787DDE /* PredatorRow.swift */,
+				C26DE8452B02C09C00787DDE /* PredatorDetail.swift */,
+				C26DE8172B022D5000787DDE /* Assets.xcassets */,
+				C26DE83D2B02333B00787DDE /* jpapexpredators.json */,
+				C26DE8192B022D5000787DDE /* Preview Content */,
+			);
+			path = Predators;
+			sourceTree = "<group>";
+		};
+		C26DE8192B022D5000787DDE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C26DE81A2B022D5000787DDE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C26DE8232B022D5000787DDE /* PredatorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C26DE8242B022D5000787DDE /* PredatorsTests.swift */,
+			);
+			path = PredatorsTests;
+			sourceTree = "<group>";
+		};
+		C26DE82D2B022D5000787DDE /* PredatorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C26DE82E2B022D5000787DDE /* PredatorsUITests.swift */,
+				C26DE8302B022D5000787DDE /* PredatorsUITestsLaunchTests.swift */,
+			);
+			path = PredatorsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26DE80F2B022D4F00787DDE /* Predators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26DE8342B022D5000787DDE /* Build configuration list for PBXNativeTarget "Predators" */;
+			buildPhases = (
+				C26DE80C2B022D4F00787DDE /* Sources */,
+				C26DE80D2B022D4F00787DDE /* Frameworks */,
+				C26DE80E2B022D4F00787DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Predators;
+			productName = Predators;
+			productReference = C26DE8102B022D4F00787DDE /* Predators.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C26DE81F2B022D5000787DDE /* PredatorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26DE8372B022D5000787DDE /* Build configuration list for PBXNativeTarget "PredatorsTests" */;
+			buildPhases = (
+				C26DE81C2B022D5000787DDE /* Sources */,
+				C26DE81D2B022D5000787DDE /* Frameworks */,
+				C26DE81E2B022D5000787DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26DE8222B022D5000787DDE /* PBXTargetDependency */,
+			);
+			name = PredatorsTests;
+			productName = PredatorsTests;
+			productReference = C26DE8202B022D5000787DDE /* PredatorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C26DE8292B022D5000787DDE /* PredatorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26DE83A2B022D5000787DDE /* Build configuration list for PBXNativeTarget "PredatorsUITests" */;
+			buildPhases = (
+				C26DE8262B022D5000787DDE /* Sources */,
+				C26DE8272B022D5000787DDE /* Frameworks */,
+				C26DE8282B022D5000787DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26DE82C2B022D5000787DDE /* PBXTargetDependency */,
+			);
+			name = PredatorsUITests;
+			productName = PredatorsUITests;
+			productReference = C26DE82A2B022D5000787DDE /* PredatorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26DE8082B022D4F00787DDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C26DE80F2B022D4F00787DDE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C26DE81F2B022D5000787DDE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C26DE80F2B022D4F00787DDE;
+					};
+					C26DE8292B022D5000787DDE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C26DE80F2B022D4F00787DDE;
+					};
+				};
+			};
+			buildConfigurationList = C26DE80B2B022D4F00787DDE /* Build configuration list for PBXProject "Predators" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26DE8072B022D4F00787DDE;
+			productRefGroup = C26DE8112B022D4F00787DDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26DE80F2B022D4F00787DDE /* Predators */,
+				C26DE81F2B022D5000787DDE /* PredatorsTests */,
+				C26DE8292B022D5000787DDE /* PredatorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26DE80E2B022D4F00787DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26DE81B2B022D5000787DDE /* Preview Assets.xcassets in Resources */,
+				C26DE8182B022D5000787DDE /* Assets.xcassets in Resources */,
+				C26DE83E2B02333B00787DDE /* jpapexpredators.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DE81E2B022D5000787DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DE8282B022D5000787DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26DE80C2B022D4F00787DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26DE8402B0234B700787DDE /* ApexPredator.swift in Sources */,
+				C26DE8422B02385200787DDE /* ApexController.swift in Sources */,
+				C26DE8162B022D4F00787DDE /* ContentView.swift in Sources */,
+				C26DE8462B02C09C00787DDE /* PredatorDetail.swift in Sources */,
+				C26DE8142B022D4F00787DDE /* PredatorsApp.swift in Sources */,
+				C26DE8442B02489D00787DDE /* PredatorRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DE81C2B022D5000787DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26DE8252B022D5000787DDE /* PredatorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DE8262B022D5000787DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26DE82F2B022D5000787DDE /* PredatorsUITests.swift in Sources */,
+				C26DE8312B022D5000787DDE /* PredatorsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C26DE8222B022D5000787DDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26DE80F2B022D4F00787DDE /* Predators */;
+			targetProxy = C26DE8212B022D5000787DDE /* PBXContainerItemProxy */;
+		};
+		C26DE82C2B022D5000787DDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26DE80F2B022D4F00787DDE /* Predators */;
+			targetProxy = C26DE82B2B022D5000787DDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C26DE8322B022D5000787DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C26DE8332B022D5000787DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C26DE8352B022D5000787DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Predators/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "JP Predators";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Matko.Predators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C26DE8362B022D5000787DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Predators/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "JP Predators";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Matko.Predators;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C26DE8382B022D5000787DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Matko.PredatorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Predators.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Predators";
+			};
+			name = Debug;
+		};
+		C26DE8392B022D5000787DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Matko.PredatorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Predators.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Predators";
+			};
+			name = Release;
+		};
+		C26DE83B2B022D5000787DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Matko.PredatorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Predators;
+			};
+			name = Debug;
+		};
+		C26DE83C2B022D5000787DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Matko.PredatorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Predators;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26DE80B2B022D4F00787DDE /* Build configuration list for PBXProject "Predators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26DE8322B022D5000787DDE /* Debug */,
+				C26DE8332B022D5000787DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26DE8342B022D5000787DDE /* Build configuration list for PBXNativeTarget "Predators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26DE8352B022D5000787DDE /* Debug */,
+				C26DE8362B022D5000787DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26DE8372B022D5000787DDE /* Build configuration list for PBXNativeTarget "PredatorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26DE8382B022D5000787DDE /* Debug */,
+				C26DE8392B022D5000787DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26DE83A2B022D5000787DDE /* Build configuration list for PBXNativeTarget "PredatorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26DE83B2B022D5000787DDE /* Debug */,
+				C26DE83C2B022D5000787DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26DE8082B022D4F00787DDE /* Project object */;
+}
